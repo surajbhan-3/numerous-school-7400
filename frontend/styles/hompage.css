@@ -9,8 +9,29 @@ body{
     border: 1px solid black;
     height: 30px;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 2%;
+
 
 }
 .navbar >.logo{
-    
+  border: 1px solid green;
+}
+.navbar>.nav-items{
+border: 1px solid brown;
+width: 90%;
+
+}
+.navbar> .nav-items>ul{
+    border: 1px solid red;
+    width: 100%;
+    /* display: flex; */
+   
+}
+
+.navbar> .nav-items>ul>li{
+
+   
 }
