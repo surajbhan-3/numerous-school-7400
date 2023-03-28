@@ -1,0 +1,16 @@
+
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+.navbar{
+
+    border: 1px solid black;
+    height: 30px;
+    width: 100%;
+
+}
+.navbar >.logo{
+    
+}
