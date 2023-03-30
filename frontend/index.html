@@ -1,26 +1,288 @@
-
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hompage</title>
-    <link rel="stylesheet" href="./styles/hompage.css">
-</head>
-<body>
-    
-   <div class="navbar">
-         <div class="logo"><img width="100%" height="100%" src="./assets/AE-Logo.svg" alt=""></div>
-         <div class="nav-items">
+    <link rel="stylesheet" href="./styles/hompage.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="fullnav">
+      <div class="mainnav">
+        <div class="navbar">
+          <div class="logo">
+            <a href="./index.html"
+              ><img
+                width="100%"
+                height="100%"
+                src="./assets/AE-Logo.svg"
+                alt=""
+            /></a>
+          </div>
+          <div class="nav-items">
             <ul>
-                <li> <input type="search" name="search" id="search" placeholder="search" style="text-align: center;">  </li>
-                <li>demo</li>
-                <li>demo</li>
-                <li>demo</li>
-                <li>demo</li>
-                <li>demo</li>
+              <li>
+                <input
+                  type="search"
+                  name="search"
+                  id="search"
+                  placeholder="search"
+                  style="width: 90px; height: 20px; font-size: 12px"
+                />
+              </li>
+              <li>
+                <img
+                  height="100%"
+                  width="100%"
+                  src="https://cdn-icons-png.flaticon.com/512/622/622669.png"
+                  alt=""
+                />
+              </li>
+              <li>
+                <img
+                  width="100%"
+                  height="100%"
+                  src="https://cdn-icons-png.flaticon.com/512/2951/2951105.png"
+                  alt=""
+                />
+              </li>
+              <li>
+                <img
+                  width="100%"
+                  height="100%"
+                  src="https://cdn-icons-png.flaticon.com/512/747/747376.png"
+                  alt=""
+                />
+              </li>
+              <li>
+                <img
+                  width="100%"
+                  height="100%"
+                  src="https://cdn-icons-png.flaticon.com/512/1077/1077035.png"
+                  alt=""
+                />
+              </li>
+              <li>
+                <img
+                  width="100%"
+                  height="100%"
+                  src="https://cdn-icons-png.flaticon.com/512/4903/4903482.png"
+                  alt=""
+                />
+              </li>
             </ul>
-         </div>
-   </div>
-</body>
+          </div>
+        </div>
+      </div>
+      <div class="dropdown">
+        <div class="category">
+          <li class="men" id="h-15">
+            <a href="#">Men</a>
+            
+
+            <div class="dropdown-men">
+              <ul class="ul-1">
+                <li>
+                  <p> TOPS
+                   <h6>T-shirts</h6>  
+                   <h6>Jackets</h6>
+                  </p> 
+                     
+                </li>
+                <li>
+                  <p> BOTTOMS </p> 
+                
+                </li>
+                <li>
+                  <p> Underware </p>
+                 
+                </li>
+                <li>
+                  <p> Shoe & accesories </p> 
+                
+                </li>
+                <li>
+                  <p> Featured </p>
+              
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <li id="h-25"><a href="#">Women</a></li>
+
+          <li id="h-35"><a href="#">Jeans</a></li>
+          <li id="h-45"><a href="#">Sale</a></li>
+        </div>
+      </div>
+      <div class="coupon-div">
+        <p>Flat 10 percent off</p>
+      </div>
+    </div>
+
+    <!-- <div class="dropdown-men">
+  <ul  class="ul-1">
+       
+  <li> <strong> Tops </strong> <br> <br>   </li>
+  <li> <strong>  Bottoms </strong> <br> <br>  </li>
+  <li> <strong> Underware </strong> <br> <br>   </li>
+  <li>  <strong>  Shoe & accesories </strong> <br> <br>  </li>
+  <li> <strong> Featured </strong> <br> <br>   </li>
+
+
+  </ul>
+</div> -->
+    <!-- * nav bar ends here  -->
+
+    <!-- * crousel  starts here -->
+
+    <div class="crousel-hp">
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="3"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="5"
+            aria-label="Slide 6"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img
+              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2z49PpiKvoRsyvQQG7k2z25ddL9B1NkrbiyuQoMhhwqxyu0M8cVyF8jN-l94I8qt8vAeflFxvsWGR0ghCwfx-DvL5mYj6EMAQCL5lH65vnDVCgpstY_AUTygCugq-DEK37Bn-tDEVYjWKZN0QEbryi44g1iuXDhTQBQOlh2vx0RVG82qsHBngYUkt/s16000/15--11992.png"
+              class="d-block w-100"
+              alt=""
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>First slide label</h5> -->
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2z49PpiKvoRsyvQQG7k2z25ddL9B1NkrbiyuQoMhhwqxyu0M8cVyF8jN-l94I8qt8vAeflFxvsWGR0ghCwfx-DvL5mYj6EMAQCL5lH65vnDVCgpstY_AUTygCugq-DEK37Bn-tDEVYjWKZN0QEbryi44g1iuXDhTQBQOlh2vx0RVG82qsHBngYUkt/s16000/15--11992.png"
+              class="d-block w-100"
+              alt=""
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>Second slide label</h5> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAOdfkU5r3y04EnGX2uZh1swbLunnAIaI6D4GVG5HB2NkhBbhkix_3-JdFKYA-BKNmDfsMho7HuCopqg789vNCG4rZ2U9lprz0Ky6dNw0a8gc1cP5Q7MMd4s_b7ZGb__mEFrA-I4-_BQvHz2bYDjChh9eToMcXG0FdmBrpIAjOzjFi0_xMH9JiBE-2/s16000/15--12000.png"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>Third slide label</h5> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxs0KjPx4kMvdtqOP6hEItbirsxrZYXeUOoD3AE4O18vQ1br_B5UQA6ZBui82JF1rF348bfFYMqLmIh2swx-U8a5S8Kbl9cz6sVXHKC42qjUHMYYlZX9aOW34igbDUmQf5JpaG8bBvFWkLXOirX3vns2OnMhpN0jV-7975vbmgCLfd8cpEXmyYBHWf/s16000/15--11996.png"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>Fourth slide label</h5> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEis8wiknR2GWNilAhN17mKWOJmKQARWMmRujoGHfbKkPjaTcV-XFnnah2S-vkYIOSBKimKSn49UCVIYGG-XFJPfcaTChi2DG-pnKq2M1RSQYLB6i4H17M1IiZPBzmGE-OpzSxnpfOEAuRAZFmNHbI8rbNc2BIRZTRkw0gbRAkUPIzxPKyPcdE1qXMhC/s16000/15--11901.png"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>fith slide label</h5> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrETo2IxTHU1pJHKKsNAlkrvOc6aMMVsAt-hKA_jZtQB2ZSoLDTykAYRKs56ikJub9dudLzfb2wwBKW7_7qKr77A_CdMHGg9_1ZwmEW3NVzYaYR7RgnEiaG71T39TtWZQ2WAKvSGe1iiEEYjJO3P_jaw-jnviFpyqStLqSxpafduYC9bBTgvR81Uvi/s16000/15--12005.png"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>Third sixth label</h5> -->
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <script>
+      // Handle Bootstrap carousel slide event
+      $(".carousel").carousel({
+        interval: 5000,
+      });
+    </script>
+  </body>
 </html>
