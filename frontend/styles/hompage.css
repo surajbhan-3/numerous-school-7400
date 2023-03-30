@@ -148,6 +148,34 @@ margin-left: 10%;
 
 
 }
+.dropdown>.category>.women>.dropdown-women{
+    border: 0px;
+    width: 100%;
+    margin-top: 10px;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    background-color: white;
+    display: none;
+    /* margin-right: 100%; */
+
+
+}
+
+.dropdown>.category>.jeans>.dropdown-jeans{
+    border: 0px;
+    width: 100%;
+    margin-top: 10px;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    background-color: white;
+    display: none;
+    /* margin-right: 100%; */
+
+
+}
+
 
 .dropdown>.category>.men>.dropdown-men>.ul-1{
 
@@ -158,8 +186,36 @@ margin-left: 10%;
      list-style: none;
    
 }
+.dropdown>.category>.women>.dropdown-women>.ul-1{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 60%;
+    list-style: none;
+  
+}
+.dropdown>.category>.jeans>.dropdown-jeans>.ul-1{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 60%;
+    list-style: none;
+  
+}
 
 .dropdown>.category>.men>.dropdown-men>.ul-1>li>p{
+    font-size: 14px;
+    font-weight: 600;
+
+}
+.dropdown>.category>.women>.dropdown-women>.ul-1>li>p{
+    font-size: 14px;
+    font-weight: 600;
+
+}
+.dropdown>.category>.jeans>.dropdown-jeans>.ul-1>li>p{
     font-size: 14px;
     font-weight: 600;
 
@@ -182,13 +238,121 @@ margin-left: 10%;
     font-size: 12px;
 
 }
+.dropdown-women h6{
+    font-size: 12px;
+
+}
+.dropdown-jeans h6{
+    font-size: 12px;
+
+}
 
 
 .dropdown>.category>.men:hover .dropdown-men{
 
     display: block;
+  
+}
+.dropdown>.category>.women:hover .dropdown-women{
+
+    display: block;
+  
+}
+
+.dropdown>.category>.jeans:hover .dropdown-jeans{
+
+    display: block;
+  
+}
+
+.best-seller{
+    border: 1px solid red;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:#1d2b4f;
+    font-weight: 600;
+
+}
+.best-seller-crousel{
+    border: 1px solid green;
+    height: 400px;
+    margin-bottom: 50px;
+
+    
+}
+
+.brand-video{
+    border: 1px solid red;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:#1d2b4f;
+    font-weight: 600;
+
+}
+.brand-video-list{
+    width: 60%;
+    height: 300px;
+    margin: auto;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+
+
+}
+
+.brand-video-list>div{
+    width: 33%;
+    height: 300px;
+    border: 1px solid gray;
+    
+}
+.img32{
+    height: 400px;
+    margin-bottom: 30px;
 }
 
 
 
+.buttons{
+    width: 100%;
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+   
+}
 
+.buttons>button{
+
+    width: 40%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 60px;
+    background-color: white;
+
+
+}
+
+
+
+footer{
+   width: 95%;
+    border: 1px solid rebeccapurple;
+    margin: auto;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+}
+footer>div{
+    width: 50%;
+}
+.hrl{
+    margin-top: 20px;
+    
+}
