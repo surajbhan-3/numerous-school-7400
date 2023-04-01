@@ -352,7 +352,11 @@ footer{
 footer>div{
     width: 50%;
 }
-.hrl{
+
+
+.ll{
     margin-top: 20px;
-    
+    border-top: 2px solid black;
+    padding: 20px;
+
 }
