@@ -4,7 +4,7 @@ require("dotenv").config()
 const {userRouter}=require("./routes/User.routes")
  const {productRouter}=require("./routes/product.routes")
 const {authenticate}=require("./middleware/authenticate.middleware")
-const cors=require("cors")
+const cors=require('cors')
 const bodyParser=require("body-parser")
 
 
