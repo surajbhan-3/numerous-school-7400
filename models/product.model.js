@@ -3,18 +3,18 @@ const mongoose=require("mongoose")
 
 const ProductSchema=mongoose.Schema({
 
-Title : {Type:String,required:true},
-Price :{Type:Number,required:true},
-Material : {Type:String,required:true},
-Care : {Type:String,required:true},
-Deatails :{Type:Array,required:true},
-Size: {Type:String,required:true},
+Title : String,
+Price :String,
+Material :String,
+Care :String,
+Deatails :Array,
+Size: String
 
 
 })
 
 
-const ProductModel=mongoose.model("lusers",ProductSchema)
+const ProductModel=mongoose.model("products",ProductSchema)
 
 
 module.exports={ProductModel}
