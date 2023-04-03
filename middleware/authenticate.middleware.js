@@ -1,6 +1,6 @@
 const jwt=require("jsonwebtoken")
 
-const authenticae=(req,res,next)=>{
+const authenticate=(req,res,next)=>{
     const token=req.headers.authorization
      if(token){
         jwt.verify(token,"key",(err,decoded)=>{
@@ -17,4 +17,4 @@ const authenticae=(req,res,next)=>{
 
 }
 
-module.exports={authenticae}
+module.exports={authenticate}
